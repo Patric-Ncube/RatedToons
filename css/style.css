@@ -15,9 +15,11 @@ html {
 }
 
 body {
-    background-color: var(--primary-yellow);
+    background-color: black;
     font-family: "Montserrat", sans-serif;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 section {
@@ -233,6 +235,11 @@ nav {
 /*---Hero Section (End)---*/
 
 /*---Main Section (Start)---*/
+main {
+    background-color: var(--primary-yellow);
+    flex: 1;
+}
+
 .studio-section {
     padding: 1rem 1.5rem 2rem 1.5rem;
     width: 100%;
